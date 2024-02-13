@@ -1,5 +1,5 @@
 param location string= 'westus3'
-param storageName string = 'gstorage'
+param storageName string = 'gstorage-sai199467'
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   name: storageName
