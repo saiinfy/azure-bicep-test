@@ -33,7 +33,7 @@ jobs:
       - name: Deploy the Bicep Script
         uses: azure/arm-deploy@v1
         with:
-          resourceGroupName: "WebAppGroup" #change to reflect your Resource Group
+          resourceGroupName: "gAppGroup" #change to reflect your Resource Group
           template: azure-resources.bicep
 
 
